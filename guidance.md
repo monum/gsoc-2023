@@ -30,7 +30,7 @@ Please answer these questions:
 
 ### Section 3: Your Project Skills
 
-Take a look at our ideas list is [here](https://monum.github.io/gsoc-2022/) and answer the following questions.
+Take a look at our ideas list is [here](https://monum.github.io/gsoc-2023/) and answer the following questions.
 	
   - Which ideas are you interested in? You can list one or multiple ideas.
   
