@@ -38,13 +38,40 @@ This project will require intermediate experience with Python, machine learning 
 
 The mentors for the project will include two Program Directors at the Mayor's Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 and 2022.
 
-### 3. Data Visualization for the Upcoming At-Home Sensor Network ("Lunchbox of Sensors")
+### 3. Expanded Translation for the City's 311 App with Machine Learning
+
+In 2010, our office launched the City of Boston's [311 app](https://311.boston.gov/) (one of the first in the nation). The app allows residents to report an array on non-emergency issues (such as potholes) with their smartphones. Historically, the app has only been offered in English, and we have done some of the preliminary work to provide it in other languages. This is a very important issue to address, since up to 33% of the city does not speak English.
+
+[Inspired by the City of San José](https://medium.com/swlh/better-language-translation-through-machine-learning-everything-i-wish-i-knew-6-months-ago-8fa212fb1731), our Google Summer of Code contributor for 2022 created an API-accessible service that improves the translation of text from residents reporting issues through the 311 app. The translation service was based on a custom, trained model using vocabulary frequently associated with City services. Their progress can be found here:
+
+https://github.com/monum/311-translation
+
+The translation service works well, but still needs improvement for the languages initially tested, namely Spanish and Vietnamese. Moreover, the translation service does not address the following languages used by Boston's residents:
+
+- Simplified Chinese
+- Haitian Creole
+- Cabo Verdean Creole
+- Portuguese
+- Russian
+- Arabic
+- French
+- Somali
+
+This summer, we would like to add two more languages to the translation service. The translation service accepts text from a 311 request and return translated text that could be easily understood by our City operations teams. We also benchmark the progress of this translation service against more general translation services.
+
+We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
+
+This project requires intermediate experience with machine learning, building and training models with text classification, natural language processing, and Python. It will also require intermediate experience with building web service APIs with with a web framework like Flask, Django etc.
+
+The mentors for the project will include two Program Directors at the Mayor's Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 + 2022.
+
+### 4. Data Visualization for the Upcoming At-Home Sensor Network ("Lunchbox of Sensors")
 
 Over the past year, our office has been conducting research and planning on an at-home sensor network called the *Lunchbox of Sensors*. The idea is that city residents could check-out a unified kit of sensors from their local library and use them at home. The internet-connected kits will include sensors for temperature, barometric pressure, relative humidity, temperature, noise, carbon dioxide (a decent measure of ventilation), and a variety of common household air pollutants (VOCs, carbon monoxide, and nitrogen dioxide). We are currently working with a experienced fabrication studio to build a collection of the prototypes.
 
 Since the data from the kits will be available via an API, we would like to build a comprehensive data visualization about the sensor network for the public. At its most basic level, the visualization will display the real-time data collected from the network of sensors on custom maps of the sensor network and animated, interactive charts. Since the sensor data will focus on indoor air environments, the visualization should also incorporate data on the outdoor environment from real-time sources. Finally, the visualization should also provide sociological context, such as providing information on social vulnerability on the maps (via the [CDC's Social Vulnerability Index](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html), for example).
 
-We give this project a **medium** level of difficulty.
+We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
 
 This project will require intermediate experience with GIS and web mapping platforms, data visualization frameworks like D3, data analysis tools, and JavaScript/HTML/CSS.
 
