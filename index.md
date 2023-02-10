@@ -42,11 +42,11 @@ The mentors for the project will include two Program Directors at the Mayor's Of
 
 In 2010, our office launched the City of Boston's [311 app](https://311.boston.gov/) (one of the first in the nation). The app allows residents to report an array on non-emergency issues (such as potholes) with their smartphones. Historically, the app has only been offered in English, and we have done some of the preliminary work to provide it in other languages. This is a very important issue to address, since up to 33% of the city does not speak English.
 
-[Inspired by the City of San José](https://medium.com/swlh/better-language-translation-through-machine-learning-everything-i-wish-i-knew-6-months-ago-8fa212fb1731), our Google Summer of Code contributor for 2022 created an API-accessible service that improves the translation of text from residents reporting issues through the 311 app. The translation service was based on a custom, trained model using vocabulary frequently associated with City services. Their progress can be found here:
+[Inspired by the City of San José](https://medium.com/swlh/better-language-translation-through-machine-learning-everything-i-wish-i-knew-6-months-ago-8fa212fb1731), our Google Summer of Code contributor for 2022 created a machine learning model that improves the translation of text from residents reporting issues through the 311 app. The model was based on a custom, trained model using vocabulary frequently associated with City services. Their progress can be found here:
 
 [github.com/monum/311-translation](https://github.com/monum/311-translation)
 
-The translation service works well, but still needs improvement for the languages initially tested, namely Spanish and Vietnamese. Moreover, the translation service does not address the following languages used by Boston's residents:
+The machine learning model works well, but still needs improvement for the languages initially tested, namely Spanish and Vietnamese. We also want to make the translation model accessible via a web-service API. Finally, the translation service does not address the following languages used by Boston's residents:
 
 - Simplified Chinese
 - Haitian Creole
@@ -57,9 +57,9 @@ The translation service works well, but still needs improvement for the language
 - French
 - Somali
 
-This summer, we would like to add two more languages to the translation service. The translation service accepts text from a 311 request and return translated text that could be easily understood by our City operations teams. We also benchmark the progress of this translation service against more general translation services.
+This summer, we would like to add two more languages to the machine learning model and make it API-accessible, in order to create a translation service. The translation service should accept text from a 311 request and return translated text that could be easily understood by our City operations teams. We will also continue to benchmark the progress of this translation service against more general translation services.
 
-We give this project a **medium** level of difficulty. The project can be completed in **175 hours**.
+We give this project a **medium** level of difficulty. The project can be completed in **350 hours**.
 
 This project requires intermediate experience with machine learning, building and training models with text classification, natural language processing, and Python. It will also require intermediate experience with building web service APIs with with a web framework like Flask, Django etc.
 
