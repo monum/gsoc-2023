@@ -63,7 +63,7 @@ We give this project a **medium** level of difficulty. The project can be comple
 
 This project requires intermediate experience with machine learning, building and training models with text classification, natural language processing, and Python. It will also require intermediate experience with building web service APIs with with a web framework like Flask, Django etc.
 
-The mentors for the project will include two Program Directors at the Mayor's Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 + 2022.
+The mentors for the project will include two Program Directors at the Mayor's Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 and 2022.
 
 ### 4. Data Visualization for the Upcoming At-Home Sensor Network ("Lunchbox of Sensors")
 
