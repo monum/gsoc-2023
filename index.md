@@ -44,7 +44,7 @@ In 2010, our office launched the City of Boston's [311 app](https://311.boston.g
 
 [Inspired by the City of San José](https://medium.com/swlh/better-language-translation-through-machine-learning-everything-i-wish-i-knew-6-months-ago-8fa212fb1731), our Google Summer of Code contributor for 2022 created an API-accessible service that improves the translation of text from residents reporting issues through the 311 app. The translation service was based on a custom, trained model using vocabulary frequently associated with City services. Their progress can be found here:
 
-[github.com/monum/311-translation]https://github.com/monum/311-translation
+[github.com/monum/311-translation](https://github.com/monum/311-translation)
 
 The translation service works well, but still needs improvement for the languages initially tested, namely Spanish and Vietnamese. Moreover, the translation service does not address the following languages used by Boston's residents:
 
