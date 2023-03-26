@@ -8,7 +8,21 @@ You can find guidance for applications and your project proposals **[here](https
 
 ## Ideas List for 2023
 
-### 1. Dashboard for Equity in City Infrastructure
+### 1. Exploring Intersection of Civic Technology and Large-Language Models
+
+Over the years, we have experimented with chatbots to improve access to City services. Chat via text message or on a website offers a familiar interface for people who might have trouble finding information about a specific program on a website or a PDF.
+
+We are excited by the recent developments of large-language models, and would like to create prototypes with the technology - in particular GPT-3/GPT-4.
+
+This project will include the following activities: **1**) Using LlamaIndex (previously known at GPT Index), extending Chat-GPT with external data, such as a PDF about affordable housing services **2**) Creating a web app with an intuitive user interface to interact the chat bot. The user should be able to evaluate each response from the chatbot (a simple thumbs up or thumbs down, which should be recorded in a datastore, such as an Airtable base). **3**) Evaluating the implementation differences between the API-accessible GPT-3 and Hugging Face Transformers library (for example).
+
+We give this project a medium level of difficulty. The project can be completed in 175 hours.
+
+This project will require intermediate experience with Python, an interest in large-language models and machine learning, interacting with RESTful APIs such as the GPT-3 API, and experience with JavaScript, HTML, and CSS.
+
+The mentors for the project will be a Program Director at the Mayor's Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 and 2022.
+
+### 2. Dashboard for Equity in City Infrastructure
 
 At the Mayor's Office of New Urban Mechanics, we are focused on helping City departments create innovative services that are accessible, equitable, and delightful. We would like to build a tool that helps City departments keep track of infrastructure investments, as they strive to make them more equitable.
 
@@ -22,7 +36,7 @@ This project will require intermediate experience with GIS and web mapping platf
 
 The mentors for the project will include two Program Directors at the Mayor's Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 and 2022.
 
-### 2. Web Interface for Urban Tree Canopy Detection Using Satellite and Aerial Imagery
+### 3. Web Interface for Urban Tree Canopy Detection Using Satellite and Aerial Imagery
 
 The City of Boston's Parks Department maintains a comprehensive data set on trees in Boston. However, it's a manual and laborious process to get the data (such as  conducting site visits for tree counts) on a regular basis. Last summer, a student built a Boston-specific model to identify trees from aerial imagery; it was based on [Deep Forest](https://github.com/weecology/DeepForest), a machine learning library for tree crown detection. 
 
@@ -38,7 +52,7 @@ This project will require intermediate experience with Python, machine learning 
 
 The mentors for the project will include two Program Directors at the Mayor's Office of Urban Mechanics, including one who served as a Google Summer of Code mentor at Code for America in 2011 and the City of Boston in 2021 and 2022.
 
-### 3. Expanded Translation for the City's 311 App with Machine Learning
+### 4. Expanded Translation for the City's 311 App with Machine Learning
 
 In 2010, our office launched the City of Boston's [311 app](https://311.boston.gov/) (one of the first in the nation). The app allows residents to report an array on non-emergency issues (such as potholes) with their smartphones. Historically, the app has only been offered in English, and we have done some of the preliminary work to provide it in other languages. This is a very important issue to address, since up to 33% of the city does not speak English.
 
